@@ -1,0 +1,131 @@
+.autocerfa-car-item{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.autocerfa-car-item:hover{
+    border-bottom: 3px solid #2959ad
+}
+
+.autocerfa-car-item .autocerfa-thumb-content{
+    position: relative
+}
+
+.autocerfa-car-item .autocerfa-thumb-content .autocerfa-car-badge{
+    position: absolute;
+    margin-top: 0px;
+    left: 20px;
+    bottom: -18px;
+    margin-right: 26px
+}
+.autocerfa-car-badge.autocerfa-car-badge-grid{
+    position: absolute;
+    margin-top: 0px;
+    left: 20px;
+    top: 20px;
+    margin-right: 26px;
+}
+.autocerfa-car-item .autocerfa-thumb-content .autocerfa-car-badge a{
+    background-color: #f4c23d;
+    border-radius: 3px;
+    color: #1e1e1e;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 85px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block
+}
+
+.autocerfa-car-item .autocerfa-thumb-content .autocerfa-thumb-inner img{
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: center center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover
+}
+
+.autocerfa-car-item .autocerfa-down-content{
+    padding: 20px;
+    text-align: left
+}
+
+.autocerfa-car-item .autocerfa-down-content h4{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1e1e1e
+}
+
+.autocerfa-car-item .autocerfa-down-content span{
+    font-size: 15px;
+    font-weight: 900;
+    color: #2959ad;
+    margin-bottom: 0px
+}
+
+.autocerfa-car-item .autocerfa-down-content p{
+    margin: 10px 0px 20px 0px
+}
+
+.autocerfa-car-item .autocerfa-down-content ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    list-style: none
+}
+
+.autocerfa-car-item .autocerfa-down-content ul li{
+    display: inline-block;
+    width: 23.5%;
+    text-align: center;
+    border-right: 3px solid #fff
+}
+
+@media (max-width:991px) {
+    .autocerfa-car-item .autocerfa-down-content ul li{
+        width: 23%
+    }
+}
+
+.autocerfa-car-item .autocerfa-down-content ul li:last-child{
+    border-right: none
+}
+
+.autocerfa-car-item .autocerfa-down-content ul li .autocerfa-item{
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 10px 5px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.autocerfa-car-item .autocerfa-down-content ul li .autocerfa-item i{
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 5px;
+    float: left
+}
+
+.autocerfa-car-item .autocerfa-down-content ul li .autocerfa-item p{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333
+}

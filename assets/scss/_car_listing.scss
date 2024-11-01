@@ -1,0 +1,141 @@
+ #post-7{   
+    h1.main_title{
+        display:none;
+    }
+}
+.autocerfa-on-listing .autocerfa-car-item {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15)
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-thumb-content {
+    position: relative
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-thumb-content .autocerfa-autocerfa-car-banner {
+    position: absolute;
+    margin-top: 0px;
+    left: 20px;
+    top: 20px;
+    bottom: -18px;
+    margin-right: 26px
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-thumb-content .autocerfa-car-banner a {
+    background-color: #f4c23d;
+    border-radius: 3px;
+    color: #1e1e1e;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 85px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-thumb-content .autocerfa-thumb-inner img {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: center center;
+    border-top-left-radius: 5px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-size: cover
+}
+
+@media (max-width:991px) {
+    .autocerfa-on-listing .autocerfa-car-item .autocerfa-thumb-content .autocerfa-thumb-inner img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px
+    }
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content {
+    text-align: left;
+    padding: 30px 30px 30px 0px
+}
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content p a {
+    font-weight: 700;
+}
+
+@media (max-width:991px) {
+    .autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content {
+        padding: 30px
+    }
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content h4 {
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1e1e1e
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content span {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 0px
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content p {
+    margin: 10px 0px 20px 0px
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    list-style: none
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    border-right: 3px solid #fff
+}
+
+@media (max-width:991px) {
+    .autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul li {
+        width: 23%
+    }
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul li:last-child {
+    border-right: none
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul li .autocerfa-item {
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 10px 5px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul li .autocerfa-item i {
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 5px;
+    float: left
+}
+
+.autocerfa-on-listing .autocerfa-car-item .autocerfa-down-content ul li .autocerfa-item p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    
+}

@@ -1,0 +1,23 @@
+$extra_large_device:'only screen and (min-width: 1367px) and (max-width: 1560px)';
+$large_device:'only screen and (min-width: 1281px) and (max-width: 1366px)';
+$medium_device:'(max-width: 1280px)';
+$tab_land_device:'only screen and (min-width: 992px) and (max-width: 1025px)';
+$tab_device:'only screen and (min-width: 768px) and (max-width: 991px)';
+$small_mobile:'(max-width: 767px)';
+$large_mobile:'only screen and (min-width: 480px) and (max-width: 767px)';
+
+// @media #{$extra_large_device}{
+// 	background:black !important;
+// }
+// @media #{$large_device}{
+// 	background:blue !important;
+// }
+// @media #{$medium_device}{
+// 	background:red !important;
+// }
+// @media #{$tab_device}{
+// 	background:green !important;
+// }
+// @media #{$small_mobile}{
+// 	background:yellow !important;
+// }

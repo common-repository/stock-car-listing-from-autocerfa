@@ -1,0 +1,161 @@
+.chosen-container {
+	min-width: 400px;
+	@media #{$tab_device}{
+		width: 380px !important;
+		min-width: 380px !important;
+	}
+	@media #{$small_mobile}{
+		width: 230px !important;
+		min-width: 230px !important;
+	}
+}
+.autocerfa_radio_btn_dblock{
+	display: block;
+	margin-bottom: 15px;
+}
+.autocerfa_sp_search_box,
+.autocerfa_slider_cars,
+.autocerfa_short_listed_cars{
+	position: relative;
+	.autocerfa_overlay {
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.6);
+		text-align: center;
+		display: table;
+		.autocerfa_overlay_btn_group{
+			vertical-align: middle;
+			display: table-cell;
+			.autocerfa-cmn-btn{
+				border-radius: 4px;
+				margin: 0 5px;
+			}
+			.autocerfa_demo_btn{
+				background: #2959ad !important;
+			}
+		}
+	}
+	
+}
+.autocerfa_custom_list_car_showing_content,
+.autocerfa_latest_car_showing_content{display: none;transition:0.4s;}
+.autocerfa_custom_list_car_showing_content.active,
+.autocerfa_latest_car_showing_content.active{display: block;transition:0.4s;}
+.autocerfa_slider_custom_list_showing_content,
+.autocerfa_slider_latest_car_showing_content{display: none;transition:0.4s;}
+.autocerfa_slider_custom_list_showing_content.active,
+.autocerfa_slider_latest_car_showing_content.active{display: block;transition:0.4s;}
+.autocerfa_right_sidebar{
+	padding-top: 47px;
+	.autocerfa_sidebar_box {
+		border: 2px solid #ccc;
+		margin-bottom: 30px;
+		background-color: #fff;
+		border-radius: 5px;
+		box-shadow: 0 3px 51px 0 rgba(0,0,0,.05);
+		.autocerfa_sidebar_box_ttl {
+			padding: 10px;
+			border-bottom: 1px solid #ccc;
+			background: transparent;
+			font-size: 14px;
+			font-weight: 700;
+			text-align: left;
+		}
+		.autocerfa-box-content{
+			padding:10px;
+			ul{
+				li{
+					position: relative;
+					padding-left: 25px;
+					list-style: none;
+					font-size: 14px;
+					line-height: 20px;
+					span.li_icon{
+						color: #fe7e17;
+						position: absolute;
+						left: 0;
+						top: 0;
+					}
+				}
+			}
+			h5{
+				font-size: 14px;
+				font-weight: 700;
+			}
+			.autocerfa_buy_now_btn {
+				display: inline-block;
+				background: #ccc !important;
+				color: #fff !important;
+				font-size: 14px;
+				padding: 7px 15px;
+				font-weight: 700;
+				line-height: 24px;
+				text-transform: uppercase;
+				&:hover{
+					text-decoration: none;
+					color:#fff;
+				}
+			}
+		}
+	}
+	.autocerfa_sidebar_box.bg-yellow{
+		border: 2px solid #fe7e17;
+		.autocerfa_sidebar_box_ttl{
+			color:#fff;		
+			text-align: center;
+			background-color: #fe7e17;
+		}
+		.autocerfa_buy_now_btn {
+			background: #fe7e17 !important;
+			color: #fff !important;
+			display: block;
+			&:hover{
+				text-decoration: none;
+				color:#fff;
+			}
+		}
+	}
+}
+.autocerfa-panel{
+	@media #{$small_mobile}{
+		margin:0 0px 15px 0 !important;
+	}
+}
+.autocerfa_sp_search_box{
+	.form-control{
+		&:focus{
+			box-shadow: none;
+		}
+	}
+	.input-group-text {
+		background-color: transparent;
+		border-radius: 0;		
+	}
+}
+.autocerfa_tab_bar a.nav-tab{
+  color:inherit;
+  background-color:#e5e5e5;
+  &:hover{
+  	text-decoration: none;
+  }
+}
+.autocerfa_tab_bar{
+	.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+		border-bottom: 1px solid #f1f1f1 !important;
+		background: #f1f1f1 !important;
+	}
+}
+.autocerfa_tab_form_style{
+	margin-top: 30px;
+}
+.autocerfa-advance-configure{
+	display: none;
+}
+.autocerfa-advance-configure-change{
+	cursor: pointer;
+	text-decoration: underline;
+}

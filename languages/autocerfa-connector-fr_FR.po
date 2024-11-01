@@ -1,0 +1,771 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Autocerfa Connector\n"
+"POT-Creation-Date: 2022-11-24 14:02+0600\n"
+"PO-Revision-Date: 2022-11-24 14:05+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: app.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: app.php:55
+msgid "Getting Started"
+msgstr "Commencer"
+
+#: app.php:58 src/AutocerfaHook.php:216
+msgid "Settings"
+msgstr "Paramètres"
+
+#: functions.php:49
+msgid "Read More"
+msgstr "Plus d'information"
+
+#: src/AutocerfaAjaxAction.php:45 src/AutocerfaAjaxAction.php:127
+msgid "You are not allowed to submit data."
+msgstr "Vous n’êtes pas autorisé à soumettre des données."
+
+#: src/AutocerfaAjaxAction.php:78
+msgid "Successfully deleted"
+msgstr "Supprimé avec succès"
+
+#: src/AutocerfaAjaxAction.php:131
+msgid "Successfully deleted."
+msgstr "Supprimé avec succès."
+
+#: src/AutocerfaAjaxAction.php:160
+msgid "Please select sold car."
+msgstr "Veuillez sélectionner la voiture vendue."
+
+#: src/AutocerfaAjaxAction.php:205
+msgid "License key is empty."
+msgstr "La clé de licence est vide."
+
+#: src/AutocerfaAjaxAction.php:288
+msgid "Cannot find this record"
+msgstr "Impossible de trouver cet enregistrement"
+
+#: src/AutocerfaEnqueue.php:78
+msgid ""
+"To optimize the performance of your website it may take a longer time to "
+"pull all stock cars."
+msgstr ""
+"Pour optimiser les performances de votre site Web, il peut prendre plus de "
+"temps pour tirer tous les stock-cars."
+
+#: src/AutocerfaEnqueue.php:79
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: src/AutocerfaEnqueue.php:80
+msgid "You won't be able to revert this!"
+msgstr "Vous ne pourrez pas revenir en arrière !"
+
+#: src/AutocerfaEnqueue.php:81
+msgid "Yes, delete it!"
+msgstr "Oui, supprimer !"
+
+#: src/AutocerfaEnqueue.php:82
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/AutocerfaHook.php:79 src/AutocerfaHook.php:80
+msgid "Autocerfa Car"
+msgstr "Autocerfa Car"
+
+#: src/AutocerfaHook.php:198
+#, fuzzy
+msgid "Autocerfa"
+msgstr "Autocerfa"
+
+#: src/AutocerfaHook.php:215
+msgid "Autocerfa Settings"
+msgstr "Paramètres Autocerfa"
+
+#: src/AutocerfaHook.php:223 src/AutocerfaHook.php:224
+#: view/admin/license-key.php:6
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: src/AutocerfaHook.php:231 src/AutocerfaHook.php:232
+msgid "Support"
+msgstr "Support"
+
+#: src/AutocerfaHook.php:240 src/AutocerfaHook.php:241
+msgid "Upgrade to pro"
+msgstr "Devenir premium"
+
+#: src/AutocerfaMisc.php:88
+msgid "You are running a free plugin. Please upgrade to get this pro feature."
+msgstr ""
+"Vous exécutez un plugin gratuit. Veuillez mettre à niveau pour obtenir cette "
+"fonctionnalité pro."
+
+#: src/AutocerfaNotification.php:9
+msgid "Autocerfa synchronization has been completed"
+msgstr "La synchronisation Autocerfa est terminée"
+
+#: src/AutocerfaNotification.php:10
+msgid "<p>Hi,</p>"
+msgstr "<p>Salut</p>"
+
+#: src/AutocerfaNotification.php:11
+#, php-format
+msgid ""
+"<p>Autocerfa connector has completed fetching %d cars and saving to your "
+"website.</p>"
+msgstr ""
+"<p>Connecteur Autocerfa a terminé à aller chercher des %d voitures et à "
+"économiser sur votre site Web.</p>"
+
+#: src/AutocerfaNotification.php:13
+msgid ""
+"<p>You are using free version of plugin. Please <a href=\"https://www."
+"opcodespace.com/wp-autocerfa\">upgrade</a> to get all stock cars.</p>"
+msgstr ""
+"<p>Vous utilisez la version gratuite du plugin. S’il vous plaît mettre à <a "
+"href=\"https://www.opcodespace.com/wp-autocerfa\">niveau</a> pour obtenir "
+"tous les wagons stock.</p>"
+
+#: src/AutocerfaOpcodespace.php:52
+msgid "Congratulation! Your account has been activated."
+msgstr "Félicitation! Votre compte a été activé."
+
+#: src/AutocerfaShortCode.php:41
+msgid "<h3>Lead reference is required.</h3>"
+msgstr "<h3>La référence de plomb est requise.</h3>"
+
+#: src/AutocerfaShortCode.php:48
+msgid "<h3>Cannot find record.</h3>"
+msgstr "<h3>Impossible de trouver l’enregistrement.</h3>"
+
+#: src/AutocerfaStockProcess.php:25
+msgid "Autocerfa token is missing. Please authorize your autocerfa account."
+msgstr ""
+"Le jeton Autocerfa est manquant. Veuillez autoriser votre compte autocerfa."
+
+#: src/AutocerfaStockProcess.php:149
+msgid "No stock car"
+msgstr "Pas de stock-car"
+
+#: src/abstract/WP_Background_Process.php:426
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Toutes les %d minutes"
+
+#: view/admin/_getting_started.php:34
+msgid "Authorization"
+msgstr "Autorisation"
+
+#: view/admin/_getting_started.php:36 view/admin/_getting_started.php:56
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+#: view/admin/_getting_started.php:38
+msgid "Completed"
+msgstr "Terminé"
+
+#: view/admin/_getting_started.php:45
+msgid "Authorizing Autocerfa"
+msgstr "Autorisation d’Autocerfa"
+
+#: view/admin/_getting_started.php:46
+msgid ""
+"Authorize your <a href=\"https://www.autocerfa.com/\" target=\"_blank"
+"\">Autocerfa</a> account. You may require login autocerfa if not logged in."
+msgstr ""
+"Autorisez votre compte <a href=\"https://www.autocerfa.com/\" target=\"_blank"
+"\">Autocerfa.</a> Vous pouvez avoir besoin d’une connexion automatique si "
+"vous ne vous connectez pas."
+
+#: view/admin/_getting_started.php:49
+msgid "Authorize Your Autocerfa Account"
+msgstr "Autoriser votre compte Autocerfa"
+
+#: view/admin/_getting_started.php:57
+msgid ""
+"This process may take a longer time. After completing this process, you will "
+"get notification to your admin email."
+msgstr ""
+"Ce processus peut prendre plus de temps. Après avoir terminé ce processus, "
+"vous recevrez une notification à votre adresse e-mail d’administrateur."
+
+#: view/admin/_getting_started.php:61 view/admin/_shortcode_general.php:92
+msgid "Daily Synchronization"
+msgstr "Synchronisation quotidienne"
+
+#: view/admin/_getting_started.php:65 view/admin/_shortcode_general.php:96
+msgid "Daily Once"
+msgstr "Une fois quotidienne"
+
+#: view/admin/_getting_started.php:67 view/admin/_shortcode_general.php:98
+msgid "Daily Twice"
+msgstr "Deux fois par jour"
+
+#: view/admin/_getting_started.php:73
+msgid "Synchronize Now"
+msgstr "Synchroniser maintenant"
+
+#: view/admin/_getting_started.php:80
+msgid "Congratulation! You have completed the installation."
+msgstr "Félicitation! Vous avez terminé l’installation."
+
+#: view/admin/_getting_started.php:82
+#, php-format
+msgid "All cars are on this page <a href=\"%s\">%s</a>"
+msgstr "Toutes les voitures sont sur cette page <a href=\"%s\">%s</a>"
+
+#: view/admin/_getting_started.php:87
+msgid ""
+"Copy following shortcode and paste on web page to display your stock cars."
+msgstr ""
+"Copiez le shortcode et le coller suivant sur la page Web pour afficher vos "
+"stock-cars."
+
+#: view/admin/_getting_started.php:92
+msgid "OR"
+msgstr "OU"
+
+#: view/admin/_getting_started.php:93
+msgid "Your can create page with shortcode from here automatically."
+msgstr ""
+"Votre pouvez créer une page avec un code court à partir d’ici "
+"automatiquement."
+
+#: view/admin/_getting_started.php:105
+msgid "OK"
+msgstr "OK"
+
+#: view/admin/_getting_started.php:110
+msgid "Close"
+msgstr "Fermer"
+
+#: view/admin/_shortcode_general.php:23
+msgid "No. of Cars Per Page"
+msgstr "non. des voitures par page"
+
+#: view/admin/_shortcode_general.php:32
+msgid "Single Page Slug"
+msgstr "Limace à page unique"
+
+#: view/admin/_shortcode_general.php:40
+msgid "Example:"
+msgstr "Exemple :"
+
+#: view/admin/_shortcode_general.php:41
+msgid ""
+"If you get 404 error, after changing this slug, please remove cache and try "
+"again."
+msgstr ""
+"Si vous obtenez 404 erreur, après avoir changé cette limace, s’il vous plaît "
+"supprimer le cache et essayer à nouveau."
+
+#: view/admin/_shortcode_general.php:47
+msgid "Color skin"
+msgstr "Peau de couleur"
+
+#: view/admin/_shortcode_general.php:59
+msgid "You can change color as your website theme."
+msgstr "Vous pouvez changer de couleur en tant que thème de votre site Web."
+
+#: view/admin/_shortcode_general.php:65
+msgid "View Style"
+msgstr "Afficher le style"
+
+#: view/admin/_shortcode_general.php:68
+msgid "List View"
+msgstr "Vue en liste"
+
+#: view/admin/_shortcode_general.php:70
+msgid "Grid View"
+msgstr "Vue en grille"
+
+#: view/admin/_shortcode_general.php:77 view/admin/_shortcode_general.php:81
+msgid "Showing Filter Option"
+msgstr "Affichage de l’option de filtre"
+
+#: view/admin/_shortcode_general.php:85
+msgid "Yes"
+msgstr "Oui"
+
+#: view/admin/_shortcode_general.php:111 view/admin/_shortcode_general.php:144
+#: view/admin/_shortcode_general.php:182
+#: view/admin/_shortcode_search_box.php:53 view/admin/license-key.php:21
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: view/admin/_shortcode_general.php:121
+msgid "Showing all stock cars"
+msgstr "Affichage de toutes les voitures de stock"
+
+#: view/admin/_shortcode_general.php:122
+msgid "Use this shortcode"
+msgstr "Utilisez ce code court"
+
+#: view/admin/_shortcode_general.php:125
+msgid "Select a page where this shorcode is added"
+msgstr "Sélectionnez une page où ce shorcode est ajouté"
+
+#: view/admin/_shortcode_general.php:129 view/admin/_shortcode_general.php:167
+msgid "Select Page"
+msgstr "Sélection de la page"
+
+#: view/admin/_shortcode_general.php:157
+msgid "Single stock car"
+msgstr "Voiture de stock simple"
+
+#: view/admin/_shortcode_general.php:158
+msgid ""
+"If default single page is not compatible to your theme, you should select "
+"create a page and use this shortcode"
+msgstr ""
+"Si la page unique par défaut n’est pas compatible avec votre thème, vous "
+"devez sélectionner créer une page et utiliser ce code court"
+
+#: view/admin/_shortcode_general.php:161
+msgid "Please, select page to use above shortcode for single car."
+msgstr ""
+"S’il vous plaît, sélectionnez la page à utiliser au-dessus du code court "
+"pour une seule voiture."
+
+#: view/admin/_shortcode_search_box.php:16
+msgid "Search Box"
+msgstr "Boîte de recherche"
+
+#: view/admin/_shortcode_search_box.php:17
+msgid ""
+"You can put this search box on any page. On submit it will take car list "
+"page. If default car list page does not look good, please select your "
+"current car list page in car list section. Use this shorcode on any page."
+msgstr ""
+"Vous pouvez mettre cette boîte de recherche sur n’importe quelle page. Sur "
+"soumettre, il faudra page liste de voiture. Si la page de liste de voiture "
+"par défaut ne semble pas bonne, s’il vous plaît sélectionner votre page de "
+"liste de voiture actuelle dans la section liste de voiture. Utilisez ce "
+"shorcode sur n’importe quelle page."
+
+#: view/admin/_shortcode_search_box.php:20
+msgid "Search Box Background Color"
+msgstr "Couleur d'arrière plan de l'outil de recherche"
+
+#: view/admin/_shortcode_search_box.php:24
+msgid "Field Background Color"
+msgstr "Couleur de fond du champ"
+
+#: view/admin/_shortcode_search_box.php:28
+msgid "Field Border Color"
+msgstr "Couleur de bordure de champ"
+
+#: view/admin/_shortcode_search_box.php:32
+msgid "Field Font Color"
+msgstr "Couleur du texte du champ"
+
+#: view/admin/_shortcode_search_box.php:36
+msgid "Price Range & Search Button Color"
+msgstr "Gamme de prix & Couleur du bouton de recherche"
+
+#: view/admin/_shortcode_search_box.php:40
+msgid "Minimum Price"
+msgstr "Prix Minimum"
+
+#: view/admin/_shortcode_search_box.php:44
+msgid "Maximum Price"
+msgstr "Prix Maximum"
+
+#: view/admin/_shortcode_search_box.php:60
+#: view/admin/_shortcode_short_listed_cars.php:132
+#: view/admin/_shortcode_slider.php:102
+msgid "Upgrade"
+msgstr "Mise à jour"
+
+#: view/admin/_shortcode_search_box.php:61
+#: view/admin/_shortcode_short_listed_cars.php:134
+#: view/admin/_shortcode_slider.php:104
+msgid "Demo"
+msgstr "Démo"
+
+#: view/admin/_shortcode_short_listed_cars.php:10
+msgid "Short listed cars"
+msgstr "Voitures présélectionnées"
+
+#: view/admin/_shortcode_short_listed_cars.php:11
+msgid "You can display short listed cars on any page. Use this shortcode."
+msgstr ""
+"Vous pouvez afficher les voitures présélectionnées sur n’importe quelle "
+"page. Utilisez ce shortcode."
+
+#: view/admin/_shortcode_short_listed_cars.php:18
+msgid "Latest cars (recommended)"
+msgstr "Dernières voitures (recommandé)"
+
+#: view/admin/_shortcode_short_listed_cars.php:26
+#: view/admin/_shortcode_slider.php:26
+msgid "Custom list of car"
+msgstr "Liste personnalisée de la voiture"
+
+#: view/admin/_shortcode_short_listed_cars.php:36
+#: view/admin/_shortcode_slider.php:36
+msgid "Select Car"
+msgstr "Sélectionner"
+
+#: view/admin/_shortcode_short_listed_cars.php:97
+msgid "Template for short listed cars"
+msgstr "Modèle pour les voitures présélectionnées"
+
+#: view/admin/_shortcode_slider.php:9
+msgid "Slider"
+msgstr "Slider"
+
+#: view/admin/_shortcode_slider.php:10
+msgid "Highlighting cars with beautiful animation."
+msgstr "Mise en valeur des voitures avec une belle animation."
+
+#: view/admin/_shortcode_slider.php:18
+msgid "Latest Cars"
+msgstr "Dernières voitures"
+
+#: view/admin/_support-panel.php:4
+msgid "Need Support or New Feature?"
+msgstr "Besoin de support ou de nouvelle fonctionnalité ?"
+
+#: view/admin/_support-panel.php:8
+msgid ""
+"Find answers to your questions in the <a href=\"https://www.opcodespace.com/"
+"product/autocerfa-connector-pro/#faq\" target=\"_blank\">FAQ section</a>"
+msgstr ""
+"Trouvez des réponses à vos questions dans la <a href=\"https://www."
+"opcodespace.com/product/autocerfa-connector-pro/#faq\" target=\"_blank"
+"\">section FAQ</a>"
+
+#: view/admin/_support-panel.php:9
+msgid ""
+"Create a new <a href=\"https://www.opcodespace.com/contact/\" target=\"_blank"
+"\">support ticket or request new features</a>."
+msgstr ""
+"Créez un nouveau <a href=\"https://www.opcodespace.com/contact/\" target="
+"\"_blank\">ticket d’assistance ou demandez de nouvelles fonctionnalités.</a>"
+
+#: view/admin/_support-panel.php:12
+msgid "Create a new support ticket"
+msgstr "Créer un nouveau ticket de support"
+
+#: view/admin/_upgrade-panel.php:6
+msgid "Autocerfa Connector Pro"
+msgstr "Autocerfa Connector Pro"
+
+#: view/admin/_upgrade-panel.php:9
+msgid "Unlimited stock cars"
+msgstr "Stock-cars illimités"
+
+#: view/admin/_upgrade-panel.php:10
+msgid "Short listed cars displaying on any page."
+msgstr "Voitures répertoriées courtes s’affichant sur n’importe quelle page."
+
+#: view/admin/_upgrade-panel.php:11
+msgid "Short listed cars in slider on any page"
+msgstr "Voitures présélectionnées dans le curseur sur n’importe quelle page"
+
+#: view/admin/_upgrade-panel.php:12
+msgid "Priority support"
+msgstr "Support prioritaire"
+
+#: view/admin/_upgrade-panel.php:13
+msgid "Updates for 1 year"
+msgstr "Mises à jour pour 1 an"
+
+#: view/admin/_upgrade-panel.php:16
+msgid "Buy now only 99€/year"
+msgstr "Acheter maintenant seulement 99€/an"
+
+#: view/admin/_upgrade-panel.php:18
+msgid "Buy Now"
+msgstr "Acheter maintenant"
+
+#: view/admin/badges/_add_badge_modal.php:24
+msgid "Badge Text"
+msgstr "Texte du badge"
+
+#: view/admin/badges/_add_badge_modal.php:34
+msgid "Badge Background Color"
+msgstr "Couleur d’arrière plan du badge"
+
+#: view/admin/badges/_add_badge_modal.php:44
+msgid "Badge Text Color"
+msgstr "Couleur du texte de l'insigne"
+
+#: view/admin/badges/badges.php:5
+msgid "Badges"
+msgstr "Badges"
+
+#: view/admin/badges/badges.php:8 view/admin/dashboard.php:179
+msgid "Add Badge"
+msgstr "Ajouter un Badge"
+
+#: view/admin/dashboard.php:47
+#, php-format
+msgid "You have authorized your %s account."
+msgstr "Vous avez autorisé votre compte %s."
+
+#: view/admin/dashboard.php:61
+msgid "Pulling stock cars from autocerfa. It may take a longer time."
+msgstr "Tirer des stock-cars d’autocerfa. Cela peut prendre plus de temps."
+
+#: view/admin/dashboard.php:62
+msgid ""
+"If you don't see any cars after reloading this page, please make sure you "
+"have stock cars in autocerfa. If you have stock cars, please contact with "
+"server provider to fix wp-cron issue."
+msgstr ""
+"Si vous ne voyez aucune voiture après avoir rechargé cette page, assurez-"
+"vous d’avoir des voitures de stock dans autocerfa. Si vous avez des stock-"
+"cars, veuillez contacter le fournisseur du serveur pour résoudre le problème "
+"wp-cron."
+
+#: view/admin/dashboard.php:71
+#, php-format
+msgid "You are running your Autocerfa <strong>%s</strong> account."
+msgstr "Vous utilisez votre <strong>%s</strong> compte Autocerfa."
+
+#: view/admin/dashboard.php:79
+#, php-format
+msgid ""
+"Maximum 10 cars are visible for free version. Please <a href=\"%s\" target="
+"\"_blank\">upgrade</a> your account to display unlimited cars."
+msgstr ""
+"Maximum 10 voitures sont visibles pour la version gratuite. Veuillez <a href="
+"\"%s\" target=\"_blank\">mettre à niveau</a> votre compte pour afficher un "
+"nombre illimité de voitures."
+
+#: view/admin/dashboard.php:95
+msgid "Authorize Autocerfa"
+msgstr "Autoriser Autocerfa"
+
+#: view/admin/dashboard.php:97
+msgid "Refresh Now"
+msgstr "Actualiser maintenant"
+
+#: view/admin/dashboard.php:106
+msgid "Add Sold Car to List"
+msgstr "Ajouter une voiture vendue à la liste"
+
+#: view/admin/dashboard.php:122
+msgid "Invisible"
+msgstr "Invisible"
+
+#: view/admin/dashboard.php:123 view/admin/dashboard.php:159
+msgid "Badge"
+msgstr "Badge"
+
+#: view/admin/dashboard.php:124
+msgid "Action"
+msgstr "Action"
+
+#: view/admin/dashboard.php:183
+msgid "Remove Badge"
+msgstr "Retirer l'insigne"
+
+#: view/admin/dashboard.php:223
+msgid "Select Sold Car"
+msgstr "Sélectionnez Voiture vendue"
+
+#: view/admin/dashboard.php:239
+msgid "Add"
+msgstr "Ajouter"
+
+#: view/admin/license-key.php:13
+msgid "License key"
+msgstr "Clé de licence"
+
+#: view/admin/license-key.php:15
+#, php-format
+msgid ""
+"You will get a license key after subscribing on OP Code Space. <a\n"
+"                                href=\"%s\" target=\"_blank\">Upgrade To "
+"Autocerfa Connector Pro</a>"
+msgstr ""
+"Vous obtiendrez une clé de licence après vous être abonné à OP Code Space. "
+"<a\n"
+"                                href=\"%s\" target=\"_blank\">Mise à niveau "
+"vers Autocerfa Connector Pro</a>"
+
+#: view/admin/license-key.php:29
+msgid "Verifying your provided License key..."
+msgstr "Vérification de la clé de licence fournie..."
+
+#: view/admin/shortcodes.php:16
+msgid "All Shortcodes"
+msgstr "Tous les Shortcodes"
+
+#: view/front/autocerfa-search-box.php:66 view/front/cars/sidebar.php:48
+msgid "Model"
+msgstr "Modèle"
+
+#: view/front/autocerfa-search-box.php:81 view/front/cars/sidebar.php:32
+msgid "Mark"
+msgstr "Marque"
+
+#: view/front/autocerfa-search-box.php:96 view/front/cars/sidebar.php:131
+msgid "Fuel Type"
+msgstr "Carburant"
+
+#: view/front/autocerfa-search-box.php:110 view/front/cars/sidebar.php:161
+msgid "Transmission Type"
+msgstr "Transmission"
+
+#: view/front/autocerfa-search-box.php:122
+msgid "Price Range"
+msgstr "Échelle des prix"
+
+#: view/front/autocerfa-search-box.php:131 view/front/cars/sidebar.php:183
+msgid "Search"
+msgstr "Rechercher"
+
+#: view/front/cars/car-grids-with-sidebar.php:235
+#: view/front/cars/car-grids.php:125
+#: view/front/cars/car-lists-with-sidebar.php:193
+#: view/front/cars/car-lists.php:153
+msgid ""
+"Sorry, we don’t have any cars according your criteria, try something else"
+msgstr ""
+"Désolé, nous n’avons pas de voitures selon vos critères, essayez autre chose"
+
+#: view/front/cars/sidebar.php:20
+msgid "Quick Search"
+msgstr "RECHERCHER VEHICULE"
+
+#: view/front/cars/sidebar.php:21
+msgid "We made a quick search just for you"
+msgstr "voitures neuves ou d'occasion"
+
+#: view/front/cars/sidebar.php:64
+msgid "Min Price"
+msgstr "Prix min"
+
+#: view/front/cars/sidebar.php:96
+msgid "Max Price"
+msgstr "Prix max"
+
+#: view/front/short-listed-cars.php:44 view/front/slider.php:28
+msgid "No selected cars."
+msgstr "non. des voitures par page"
+
+#: view/front/short-listed-cars.php:61
+msgid "More Cars"
+msgstr "Plus d'information"
+
+#: view/front/single-car.php:133
+msgid "DESCRIPTION"
+msgstr "DESCRIPTION"
+
+#: view/front/single-car.php:133
+msgid "DU VÉHICULE"
+msgstr "DU VÉHICULE"
+
+#: view/front/single-car.php:141
+msgid "OPTIONS &"
+msgstr ""
+
+#: view/front/single-car.php:141
+msgid "EQUIPEMENTS"
+msgstr "EQUIPEMENTS"
+
+#: view/front/single-car.php:155
+msgid "Contact"
+msgstr "Contact"
+
+#: view/front/single-car.php:155
+msgid "Informations"
+msgstr "Informations"
+
+#. Plugin Name of the plugin/theme
+msgid "Autocerfa Connector"
+msgstr "Connecteur Autocerfa"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.opcodespace.com"
+msgstr "https://www.opcodespace.com"
+
+#. Description of the plugin/theme
+msgid "Connecting with autocerfa and displaying stock cars"
+msgstr "Connexion avec autocerfa et affichage des stock-cars"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Opcodespace <mehedee@opcodespace.com>"
+msgstr "Opcodespace <mehedee@opcodespace.com>"
+
+#, fuzzy
+#~| msgid "Short listed Cars"
+#~ msgid "Select Short Listed Car Slider"
+#~ msgstr "Voitures présélectionnées"
+
+#~ msgid "You have authorized your"
+#~ msgstr "Vous avez autorisé votre"
+
+#~ msgid "Creating Page"
+#~ msgstr "Création de page"
+
+#~ msgid ""
+#~ "Use this shortcode <kbd>[autocerfa-car-lists]</kbd> to view cars on front."
+#~ msgstr ""
+#~ "Utilisez ce shortcode <kbd>[autocerfa-car-lists]</kbd> pour voir les "
+#~ "voitures à l’avant."
+
+#~ msgid "Opcodespace Token"
+#~ msgstr "Jeton Opcodespace"
+
+#~ msgid "Welcome to Autocerfa Connector Plugin!"
+#~ msgstr "Bienvenue à Autocerfa Connector Plugin!"
+
+#~ msgid ""
+#~ "You are getting max 10 cars as you are running free version. To get full "
+#~ "features buy your subscription (€100/year) from OP Code Space."
+#~ msgstr ""
+#~ "Vous obtenez max 10 voitures que vous êtes en cours d’exécution version "
+#~ "gratuite. Pour obtenir des fonctionnalités complètes, achetez votre "
+#~ "abonnement (100 €/an) auprès d’OP Code Space."
+
+#~ msgid "Upgrade to Autocerfa Connector Pro"
+#~ msgstr "Mise à niveau vers Autocerfa Connector Pro"
+
+#~ msgid "Highlighting cars"
+#~ msgstr "Mise en valeur des voitures"
+
+#~ msgid "If any issue is related to this plugin, just"
+#~ msgstr "Si un problème est lié à ce plugin,"
+
+#~ msgid "email us"
+#~ msgstr "contactez nous"
+
+#~ msgid "We generally respond within 24 hrs."
+#~ msgstr "Nous répondons généralement dans les 24 heures."
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Passer à la version Pro"
+
+#~ msgid ""
+#~ "You are getting max 10 cars as you are running free version. To get full "
+#~ "features buy your subscription (€100/year or €10/month) from OP Code "
+#~ "Space."
+#~ msgstr ""
+#~ "Vous obtenez max 10 voitures que vous êtes en cours d’exécution version "
+#~ "gratuite. Pour obtenir des fonctionnalités complètes, achetez votre "
+#~ "abonnement (100 €/an ou 10 €/mois) auprès d’OP Code Space."
+
+#~ msgid "Subscribe Now"
+#~ msgstr "Abonnez-vous"

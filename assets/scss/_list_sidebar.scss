@@ -1,0 +1,302 @@
+#post-11{
+    h1.main_title{
+        display:none;
+    }
+}
+.autocerfa-sidebar-widgets {
+        margin-left: 30px
+    }
+
+    @media (max-width:991px) {
+        .autocerfa-sidebar-widgets {
+            margin-left: 0px;
+            margin-top: 40px;
+            border-top: 3px solid #eee;
+            padding-top: 40px
+        }
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget {
+        margin-bottom: 40px !important;
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .sidebar-heading h4 {
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-size: 17px;
+        color: #1e1e1e;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .sidebar-heading h4 em {
+        font-style: normal;
+        color: #f4c23d
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .sidebar-heading h4:after {
+        width: 30px;
+        height: 3px;
+        background-color: #1e1e1e;
+        left: 0;
+        top: 30px;
+        position: absolute;
+        content: ''
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content {
+        border-radius: 5px;
+        padding: 0px 30px 30px 30px;
+        width: 100%;
+    }
+
+    @media (max-width:991px) {
+        .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content {
+            margin-top: 30px
+        }
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-heading {
+        text-align: center
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-heading .autocerfa-icon {
+        margin-top: -22px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-heading .autocerfa-icon i {
+        border-radius: 50%;
+        font-size: 18px;
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+        line-height: 44px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-heading .autocerfa-icon i:after {
+        width: 44px;
+        height: 3px;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        bottom: -20px;
+        content: ''
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-heading .autocerfa-text-content h2 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-heading .autocerfa-text-content span {
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        color: #fff
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-form {
+        margin-top: 30px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-form input {
+        margin-bottom: 30px !important;
+        cursor: pointer;
+        outline: none;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-form select {
+        margin-bottom: 30px !important;
+        cursor: pointer;
+        outline: none;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        padding: 5px 10px;
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-content .autocerfa-search-form .autocerfa-secondary-button a {
+        width: 100%
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .search-widget input {
+        cursor: pointer;
+        outline: none;
+        font-size: 12px;
+        color: #aaa;
+        font-weight: 400;
+        line-height: 38px;
+        width: 100%;
+        height: 40px;
+        padding-left: 15px;
+        border: 1px solid #eee;
+        background-color: transparent
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-search-widget input:focus {
+        border-color: #f4c23d
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-text-widget ul {
+        padding: 0
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-text-widget ul li {
+        display: inline-block;
+        border-bottom: none
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-text-widget ul li a {
+        width: 38px;
+        height: 38px;
+        background-color: #f4c23d;
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+        line-height: 38px;
+        color: #1e1e1e;
+        border-radius: 3px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .autocerfa-text-widget ul li a:hover {
+        color: #fff;
+        background-color: #2959ad
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul {
+        padding: 0;
+        margin: 0
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul li {
+        display: inline-block;
+        list-style: none;
+        margin-top: 20px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul li img {
+        float: left;
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+        display: inline
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul li h6 {
+        color: #1e1e1e;
+        font-size: 15px;
+        font-weight: 600;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        width: 100%;
+        display: inline;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul li span {
+        font-size: 12px;
+        color: #aaa;
+        display: block;
+        margin-top: 5px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul li:first-child {
+        margin-top: 10px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .recent-posts ul li:hover h6 {
+        color: #f4c23d
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .archives ul,
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .categories ul {
+        padding: 0;
+        margin: 0
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .archives ul li,
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .categories ul li {
+        display: block;
+        list-style: none;
+        margin-bottom: 7px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .archives ul li a,
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .categories ul li a {
+        color: #1e1e1e;
+        font-size: 13px;
+        font-weight: 600;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .archives ul li a:hover,
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .categories ul li a:hover {
+        padding-left: 5px;
+        color: #2959ad
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .archives ul li a:before,
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .categories ul li a:before {
+        content: '\f105';
+        font-family: 'FontAwesome';
+        margin-right: 6px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .archives ul li:last-child,
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .categories ul li:last-child {
+        margin-bottom: 0px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .tags ul {
+        padding: 0;
+        margin: 0
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .tags ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 5px 0px 0px
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .tags ul li a {
+        display: inline-block;
+        color: #1e1e1e;
+        font-size: 13px;
+        font-weight: 600;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        padding: 5px 10px;
+        border: 1px solid #eee
+    }
+
+    .autocerfa-sidebar-widgets .autocerfa-sidebar-widget .tags ul li a:hover {
+        background-color: #f4c23d;
+        border-color: #f4c23d
+    }

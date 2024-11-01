@@ -1,0 +1,231 @@
+.autocerfa_slider_item {
+	position: relative;
+}
+
+.autocerfa_slider_text_wrapper {
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-60%, -50%);
+	padding: 30px;
+}
+.autocerfa_price{
+	position: relative;
+	display: block;
+	padding: 15px 0;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 34px;
+	transform-origin: 50% 50% 0px;
+	transform: translate(0px);	
+	margin-left: 50px;
+	//width:110px;
+	@media #{$small_mobile}{
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 18px;
+		margin-left: 40px;
+	}
+	&::before{
+		position: absolute;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -12px;
+		width: 50%;
+		height: 100%;
+		transform: skewX(-17deg);
+		z-index: -1;
+		@media #{$small_mobile}{}
+	}
+	&::after{
+		position: absolute;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -12px;
+		width: 50%;
+		height: 100%;
+		transform: skewX(-17deg);
+		z-index: -1;
+		@media #{$small_mobile}{}
+	}
+}
+.autocerfa_model{
+	position: relative;
+	display: block;
+	padding: 15px 50px;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 34px;
+	transform-origin: 50% 50% 0px;
+	transform: translate(0px);
+	@media #{$small_mobile}{
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 18px;
+	}
+	&::before{
+		position: absolute;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -11px;
+		width: 50%;
+		height: 100%;
+		transform: skewX(-17deg);
+		z-index: -1;
+		@media #{$small_mobile}{
+			left: -6px;
+		}
+	}
+	&::after{
+		position: absolute;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -34px;
+		width: 50%;
+		height: 100%;
+		transform: skewX(-17deg);
+		z-index: -1;
+		@media #{$small_mobile}{
+			right: -8px;
+		}
+	}
+}
+.autocerfa_brand {
+	position: relative;
+	display: block;;
+	padding: 20px 50px;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 40px;
+	transform-origin: 50% 50% 0px;
+	transform: translate(0px);
+	@media #{$small_mobile}{
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 18px;
+	}
+	&::before{
+		position: absolute;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -18px;
+		width: 50%;
+		height: 100%;
+		transform: skewX(-17deg);
+		z-index: -1;
+		@media #{$small_mobile}{
+			left: -8px;
+		}
+	}
+	&::after{
+		position: absolute;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -34px;
+		width: 50%;
+		height: 100%;
+		transform: skewX(-17deg);
+		z-index: -1;
+		@media #{$small_mobile}{
+			right: -8px;
+		}
+	}
+}
+.autocerfa_slider_text_wrapper h2,
+.autocerfa_slider_text_wrapper h4,
+.autocerfa_slider_text_wrapper p{
+	color: #fff;
+}
+.autocerfa_front_slider_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+.autocerfa_front_slider_wrapper .owl-nav button {
+	font-size: 50px !important;
+	color: #fff !important;
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.autocerfa_front_slider_wrapper .owl-nav button.owl-next {
+	right: 20px !important;
+	left: auto !important;
+}
+.autocerfa_front_slider_wrapper .owl-dots button {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 2px;
+	width: 15px;
+	height: 15px;
+	background: transparent;
+}
+.autocerfa_front_slider_wrapper .owl-dots .active {
+	background: #fff;
+}
+.autocerfa_front_slider_wrapper .owl-dots {
+	margin-top: -40px;
+	text-align: center;
+	z-index: 9;
+	position: relative;
+	@media #{$small_mobile}{
+		margin-top: -33px;
+	}
+}
+.autocerfa_front_slider_wrapper .owl-item.active .autocerfa_brand{
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-name: fadeInLeft;
+	animation-delay: 0.3s;
+}
+.autocerfa_front_slider_wrapper .owl-item.active .autocerfa_model {
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-name: fadeInLeft;
+	animation-delay: 0.5s;
+}
+.autocerfa_front_slider_wrapper .owl-item.active .autocerfa_price {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-name: fadeInLeft;
+	animation-delay: 0.5s;
+}
+@media #{$small_mobile}{
+	.autocerfa_slider_text_wrapper {
+		background: black;
+		position: inherit;
+		width: 100%;
+		display: block;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+	}
+	.autocerfa_front_slider_wrapper .owl-nav button {
+		display: none;
+	}
+}
